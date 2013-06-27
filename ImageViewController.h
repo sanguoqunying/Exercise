@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageViewController.h
 //  exercise201130619
 //
 //  Created by iFeng on 13-6-19.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UICollectionViewDelegate>
-
+@interface ImageViewController : UIViewController<UIScrollViewDelegate>
 @property(retain,nonatomic) UIScrollView *scrViewOne;
-@property(retain,nonatomic) UIButton *buttonOne;
-@property(retain,nonatomic) UIView *baseView;
+@property(retain,nonatomic) UIButton *imgViewOne;
+@property(retain,nonatomic) NSMutableArray *arrayOne;
 @end
