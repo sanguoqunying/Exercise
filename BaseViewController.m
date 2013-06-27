@@ -61,6 +61,7 @@
 
 - (void)viewDidLoad
 {
+    aaa
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor redColor];
     [self.view setFrame:CGRectMake(self.view.frame.size.width*0.2, 0, self.view.frame.size.width*1.2, self.view.frame.size.height)];
